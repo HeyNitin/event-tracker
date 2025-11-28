@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Event Tracker",
+    "slug": "event-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.nitin.eventtracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "event-tracker",
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f4bc3f8e-c5a0-4d79-bffd-32ee6c9c4180"
+      }
+    }
+  }
+}
