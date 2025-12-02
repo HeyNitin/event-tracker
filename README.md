@@ -55,7 +55,7 @@ To build a standalone APK for Android:
 
 1.  Install EAS CLI:
     ```bash
-    npm install -g eas-cli
+    pnpm add -g eas-cli
     ```
 
 2.  Login to Expo:

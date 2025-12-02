@@ -24,9 +24,9 @@ export const Colors: Record<Theme, ThemeColors> = {
     textSecondary: '#666666',
     tint: '#007AFF',
     danger: '#ff4444',
-    border: '#eeeeee',
-    inputBackground: '#f5f5f5',
-    inputBorder: '#eeeeee',
+    border: '#e0e0e0',
+    inputBackground: '#ffffff',
+    inputBorder: '#d1d1d1',
   },
   dark: {
     background: '#121212',
